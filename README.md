@@ -37,7 +37,7 @@
 
 # Basics of SB
 
-![i.png](image.png)
+![i.png](images/1.png)
 
 ```java
 class Student{
@@ -56,6 +56,7 @@ CDT [4]  -> Collection DATATYPE
 
 RDT -> Reference DATATYPE
 
+```java
 class product {
 
 int pid;
@@ -65,9 +66,22 @@ String pcode;
 List<Sting> models;    Set<String> colors;    Vendor vob;    GstInfo gob;
 
 }
+```
 
 interface Vendor{}
 
 class GstInfo{}
 
 ## What is Dependency Injection
+*) Dependency: A variable (instance variable) exist inside a class (Spring Bean)
+
+=> Types of Dependencies: (3)
+1. **Primitive Type Dependency (PTD) [8+1]** :
+byte, short, int, long, float, double, boolean, char and String If a variable is created using one of above datatype then it is called as PTD.
+
+2. **Collection Type Dependency (CTD) [4] (java.util)** :
+If a variable is created using one of below types
+List, Set, Map (I) and Properties (C) then it is called as CTD.
+
+3. **Reference Type Dependency (RTD)** :
+A class or interface is used as a DataType and variable is created then it is called as RTD.
