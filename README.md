@@ -37,7 +37,7 @@
 
 # Basics of SB
 
-![i.png](images/1.png)
+![](images/1.png)
 
 ```java
 class Student{
@@ -56,21 +56,8 @@ CDT [4]  -> Collection DATATYPE
 
 RDT -> Reference DATATYPE
 
-```java
-class product {
-
-int pid;
-
-String pcode;
-
-List<Sting> models;    Set<String> colors;    Vendor vob;    GstInfo gob;
-
-}
-```
-
-interface Vendor{}
-
-class GstInfo{}
+>Example:
+![](images/2.png)
 
 ## What is Dependency Injection
 *) Dependency: A variable (instance variable) exist inside a class (Spring Bean)
