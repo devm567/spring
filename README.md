@@ -67,4 +67,4 @@ A class or interface is used as a DataType and variable is created then it is ca
 ![](images/2.png)
 ---
 
-<img src="images/3.png" width="350" height="250">
+<img src="images/3.png" height="350">
