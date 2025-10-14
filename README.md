@@ -72,3 +72,25 @@ A class or interface is used as a DataType and variable is created then it is ca
 > The process of injecting Dependable object to Target object is referred as `DI`.
  
 ![](images/4.png)
+
+# Rules for Writing a Bean (Class) in Spring
+
+1. public class (must be)
+2. class should be in a package. </br>
+   [must be in base package or sub-package].
+3. variables recommended to be private.</br>
+   Methods need to be public only.
+4. Provide default constructor with mutators</br>
+   (setter/getter methods)</br>
+   [or]</br>
+   Parameterized constructor</br>
+   (Even both are also valid)</br>
+5. Our class can have Object class methods overridden. toString(), equals() and hashCode().
+   
+6. class can inherit (extends / implements ) other valid Spring Beans only.</br>
+   But not Servlets/EJB ... (other external APIS) 
+* Spring Beans can implement java.io.Serializable (I)
+1. Annotations: (can be)</br>
+*) Core Annotations (java.lang package)</br>
+*) ---- Spring F/W Annotation</br>
+*)---- Custom Annotation
