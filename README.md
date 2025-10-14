@@ -93,4 +93,4 @@ A class or interface is used as a DataType and variable is created then it is ca
 1. Annotations: (can be)</br>
 *) Core Annotations (java.lang package)</br>
 *) ---- Spring F/W Annotation</br>
-*)---- Custom Annotation
+*) Integrations (JPA/....)
