@@ -68,3 +68,7 @@ A class or interface is used as a DataType and variable is created then it is ca
 ---
 
 <img src="images/3.png" height="350">
+
+> The process of injecting Dependable object to Target object is referred as `DI`.
+ 
+![](images/4.png)
