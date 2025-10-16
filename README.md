@@ -94,3 +94,6 @@ A class or interface is used as a DataType and variable is created then it is ca
 *) Core Annotations (java.lang package)</br>
 *) ---- Spring F/W Annotation</br>
 *) Integrations (JPA/....)
+
+![](images/5.png)
+<img src="images/6.png" width="300">
