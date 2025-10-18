@@ -70,7 +70,13 @@ A class or interface is used as a DataType and variable is created then it is ca
 <img src="images/3.png" height="350">
 
 > The process of injecting Dependable object to Target object is referred as `DI`.
- 
+
+### Role of IOC Container
+1. Scans for the Bean.
+2. Creates the Object.
+3. Provide data to the variables or link the object.
+4. Destroy the Object.
+   
 ![](images/4.png)
 
 # Rules for Writing a Bean (Class) in Spring
@@ -97,3 +103,13 @@ A class or interface is used as a DataType and variable is created then it is ca
 
 ![](images/5.png)
 <img src="images/6.png" width="300">
+
+### ================XML Configuration================
+\<bean> --- creating object<br>
+\<property> --- calling set method<br>
+\<constructor-arg> --- calling parameterized constructor<br>
+\<value> --- Primitive<br>
+\<list> \<set> \<map> \<props> --- for collections<br>
+\<ref/> --- link objects
+
+![](images/7.png)
