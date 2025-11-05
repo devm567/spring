@@ -113,3 +113,71 @@ A class or interface is used as a DataType and variable is created then it is ca
 \<ref/> --- link objects
 
 ![](images/7.png)
+
+> Solid Principles always follow `POJI`(Plain Old Java Interface) or `POJO`(Plain Old Java Object). <br>
+> It(application or class or interface) should be open for extension and close for modification.
+
+![](images/8.png)
+
+### Working with p:namespace and c:namespace
+
+syntax:
+```
+    <bean ... p:variable="" />
+    <bean ... p:variable-ref="" />
+    <bean ... c:variable="" />
+    <bean ... c:variable-ref="" />
+```
+Alternative:
+```
+  <bean ... c:_0-ref="" c:_1-ref=""/>
+
+         _0       _1
+  Order(Product, Customer)
+```
+
+## Limitations of XML
+1. Difficult for the java developers to learn xml and configure the container.
+2. Difficult to track the namespace used to get the configuration setup clearly.
+3. Wrong syntax of xml will never start the code[so container won't create an object].<br>
+
+Solution : use Annotations or Pure Java Configurations
+
+### Spring Annotations:-
+1. StereoType Annotations :
+   Annotation that indicates creating object to spring bean.
+
+A) @Component     : creating object<br>
+B) @Repository    : creating object + Database Operations<br>
+C) @Service       : creating object + Business Logics/cal/Tx Management<br>
+D) @Controller    : creating object + HTTP Operations (WEB MVC)<br>
+E) @RestController: creating object + HTTP (Restful Webservices)<br>
+
+![](images/9.png)
+
+eg#1:
+```
+package com.pw.dto;
+
+@Component
+public class Employee{
+
+}
+
+Reference : employee
+```
+
+eg#2:
+```
+package com.pw.dto;
+
+@Component("emp")
+public class Employee{
+
+      @Value("10")
+      private Integer eid;
+
+}
+
+Reference : emp
+```
