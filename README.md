@@ -153,7 +153,7 @@ C) @Service       : creating object + Business Logics/cal/Tx Management<br>
 D) @Controller    : creating object + HTTP Operations (WEB MVC)<br>
 E) @RestController: creating object + HTTP (Restful Webservices)<br>
 
-![](images/9.png)
+<img src="images/9.png" width="300">
 
 eg#1:
 ```
