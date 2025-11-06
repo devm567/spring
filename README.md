@@ -181,3 +181,34 @@ public class Employee{
 
 Reference : emp
 ```
+<br>
+
+IOC Container:
+- a. It accepts two inputs
+  - a. Spring Bean
+  - b. Configuration Details [ XML | Annotations | Pure Java ]
+- b. It manages the life cycle of an object.
+<br><br>
+
+#### Configure the Container using XML
+
+1. `<bean id='' class=''>`  
+2. `<property name='' value='' ref=''>`  
+3. `<constructor-arg name='' value='' ref=''>`  
+4. Using namespace also we can perform **DI: Setter and Constructor**
+
+---
+
+#### Configuring the Container using Annotations
+
+1. `@Component`  
+2. `@Controller`  
+3. `@Service`  
+4. `@Repository`  
+5. `@Configuration`  
+6. `@ComponentScan`  
+7. `@Value`  
+8. `@Autowired`  
+9. `@Primary`  
+10. `@Qualifier`  
+11. `@PostConstruct`
