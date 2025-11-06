@@ -136,12 +136,16 @@ Alternative:
   Order(Product, Customer)
 ```
 
+---
+
 ## Limitations of XML
 1. Difficult for the java developers to learn xml and configure the container.
 2. Difficult to track the namespace used to get the configuration setup clearly.
 3. Wrong syntax of xml will never start the code[so container won't create an object].<br>
 
-Solution : use Annotations or Pure Java Configurations
+Solution : use Annotations or Pure Java Configurations.
+
+---
 
 ### Spring Annotations:-
 1. StereoType Annotations :
@@ -181,14 +185,16 @@ public class Employee{
 
 Reference : emp
 ```
-<br>
+---
 
-IOC Container:
+#### IOC Container:
 - a. It accepts two inputs
   - a. Spring Bean
   - b. Configuration Details [ XML | Annotations | Pure Java ]
 - b. It manages the life cycle of an object.
-<br><br>
+<br>
+
+---
 
 #### Configure the Container using XML
 
